@@ -1,0 +1,37 @@
+﻿Сборка начата 01.03.2024 2:20:01.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\lab5 dop12,2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "lab5 dop12,2.cpp"
+         lab5 dop12,2.cpp
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(13,1): warning C4624: "JobPlace": деструктор неявно определен как удаленный
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(24,1): warning C4624: "people": деструктор неявно определен как удаленный
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(25,15): error C2280: "people::people(void)": предпринята попытка ссылки на удаленную функцию
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(24,1):
+         в этом месте создано компилятором: "people::people"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(24,1):
+         "people::people(void)": функция неявно удалена, так как в "people" содержится элемент данных "people::place" с удаленным или недоступным деструктором.
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(23,14):
+          см. объявление "people::place"
+         
+     1>Сборка проекта "C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(13,1): warning C4624: "JobPlace": деструктор неявно определен как удаленный
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(24,1): warning C4624: "people": деструктор неявно определен как удаленный
+
+
+       "C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр5\lab5 dop12,2\lab5 dop12,2\lab5 dop12,2.cpp(25,15): error C2280: "people::people(void)": предпринята попытка ссылки на удаленную функцию
+
+    Предупреждений: 2
+    Ошибок: 1
+
+Прошло времени 00:00:01.18
