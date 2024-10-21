@@ -1,0 +1,532 @@
+﻿Сборка начата 29.03.2024 2:02:10.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.vcxproj" в узле 3 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\dop2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt dop2.cpp
+         dop2.cpp
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,6): error C2182: "outputFirstCourse": недопустимое использование "void"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,24): error C2065: Address: необъявленный идентификатор
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,34): error C2065: phead: необъявленный идентификатор
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,41): error C2065: Address: необъявленный идентификатор
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,51): error C2065: plast: необъявленный идентификатор
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(80,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,16): error C2065: phead: необъявленный идентификатор
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(83,2): error C2059: синтаксическая ошибка: if
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(84,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(84,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,7): error C2059: синтаксическая ошибка: <<
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(88,2): error C2059: синтаксическая ошибка: if
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(89,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(89,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(94,2): error C2059: синтаксическая ошибка: while
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(95,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(95,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(111,1): error C2059: синтаксическая ошибка: }
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(111,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(114,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(114,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(135,6): error C2182: "outputThirdCourse": недопустимое использование "void"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(135,34): error C2065: phead: необъявленный идентификатор
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(135,51): error C2065: plast: необъявленный идентификатор
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(136,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,2): error C2086: int Address: переопределение
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,2):
+          см. объявление "Address"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,11): error C2374: t: переопределение; множественная инициализация
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,11):
+          см. объявление "t"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,16): error C2065: phead: необъявленный идентификатор
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(138,2): error C2059: синтаксическая ошибка: if
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(139,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(139,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(142,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(142,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(142,2): error C2086: int cout: переопределение
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+          см. объявление "cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(142,7): error C2059: синтаксическая ошибка: <<
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(143,2): error C2059: синтаксическая ошибка: while
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(144,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(144,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(155,1): error C2059: синтаксическая ошибка: }
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(155,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(158,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(158,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,2): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [48]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,103): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,103): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,103):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [8]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,36): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,36): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [2]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,46): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,46): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,46):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [6]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,19): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,67): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,67): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,67):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [6]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,19): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,67): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,67): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,67):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [7]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,20): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,68): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,68): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,68):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [7]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,20): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,68): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,68): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,68):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [10]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,23): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,71): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,71): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,71):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(251,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(251,11): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(251,11): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(251,11):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,2): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [24]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,55): error C2677: бинарный "<<": не найден глобальный оператор, принимающий тип "std::string" (или приемлемое преобразование отсутствует)
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1003,9):
+         или       "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	"_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": не удается вывести аргумент шаблон для "__formal"
+         		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1002,5):
+         		"std::enable_if_t<false,int>": не удалось специализировать шаблон псевдонима
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(945,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(939,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(934,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(928,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(892,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(849,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(811,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(766,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(730,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(686,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3629,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1978,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5193,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,2): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [24]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,55): error C2677: бинарный "<<": не найден глобальный оператор, принимающий тип "std::string" (или приемлемое преобразование отсутствует)
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1003,9):
+         или       "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	"_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": не удается вывести аргумент шаблон для "__formal"
+         		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1002,5):
+         		"std::enable_if_t<false,int>": не удалось специализировать шаблон псевдонима
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(945,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(939,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(934,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(928,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(892,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(849,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(811,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(766,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(730,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(686,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3629,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1978,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5193,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,2): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [30]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,70): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,70): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,70):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,4): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,9): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [8]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [3]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,45): error C2677: бинарный "<<": не найден глобальный оператор, принимающий тип "std::string" (или приемлемое преобразование отсутствует)
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+         может быть "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1003,9):
+         или       "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	"_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": не удается вывести аргумент шаблон для "__formal"
+         		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(1002,5):
+         		"std::enable_if_t<false,int>": не удалось специализировать шаблон псевдонима
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(945,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(939,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(934,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(928,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(892,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(849,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(811,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(766,31):
+         или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<char,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(730,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\ostream(686,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3629,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(1978,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5193,32):
+         или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+         	C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37):
+         	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_ostream<_Elem,_Traits> &' из 'int'
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,4): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,2):
+         может быть "int cout"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\iostream(39,75):
+         или       "std::ostream std::cout"
+         
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,9): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [8]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,37): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,37): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [13]"
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,67): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,67): error C1003: число ошибок превышает 100; остановка компиляции
+     1>Сборка проекта "C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,36): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,37): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+
+
+       "C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,6): error C2182: "outputFirstCourse": недопустимое использование "void"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,24): error C2065: Address: необъявленный идентификатор
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,34): error C2065: phead: необъявленный идентификатор
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,41): error C2065: Address: необъявленный идентификатор
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(79,51): error C2065: plast: необъявленный идентификатор
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(80,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(82,16): error C2065: phead: необъявленный идентификатор
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(83,2): error C2059: синтаксическая ошибка: if
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(84,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(84,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(87,7): error C2059: синтаксическая ошибка: <<
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(88,2): error C2059: синтаксическая ошибка: if
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(89,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(89,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(94,2): error C2059: синтаксическая ошибка: while
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(95,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(95,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(111,1): error C2059: синтаксическая ошибка: }
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(111,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(114,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(114,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(135,6): error C2182: "outputThirdCourse": недопустимое использование "void"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(135,34): error C2065: phead: необъявленный идентификатор
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(135,51): error C2065: plast: необъявленный идентификатор
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(136,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,2): error C2086: int Address: переопределение
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,11): error C2374: t: переопределение; множественная инициализация
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(137,16): error C2065: phead: необъявленный идентификатор
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(138,2): error C2059: синтаксическая ошибка: if
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(139,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(139,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(142,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(142,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(142,2): error C2086: int cout: переопределение
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(142,7): error C2059: синтаксическая ошибка: <<
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(143,2): error C2059: синтаксическая ошибка: while
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(144,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(144,2): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(155,1): error C2059: синтаксическая ошибка: }
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(155,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(158,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(158,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,2): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [48]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,103): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(243,103): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [8]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,36): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [2]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,46): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(245,46): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [6]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,19): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,67): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(246,67): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [6]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,19): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,67): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(247,67): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [7]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,20): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,68): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(248,68): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [7]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,20): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,68): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(249,68): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,8): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [10]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,23): error C2297: "<<": недопустимо, поскольку тип правого операнда — "double"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,71): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(250,71): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(251,3): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(251,11): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(251,11): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,2): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [24]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(268,55): error C2677: бинарный "<<": не найден глобальный оператор, принимающий тип "std::string" (или приемлемое преобразование отсутствует)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,2): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [24]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(269,55): error C2677: бинарный "<<": не найден глобальный оператор, принимающий тип "std::string" (или приемлемое преобразование отсутствует)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,2): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [30]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,70): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(291,70): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,4): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,9): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [8]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,37): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [3]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(294,45): error C2677: бинарный "<<": не найден глобальный оператор, принимающий тип "std::string" (или приемлемое преобразование отсутствует)
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,4): error C2872: cout: неоднозначный символ
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,9): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [8]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,37): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [13]"
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,67): error C2563: несоответствие в списке формальных параметров
+         C:\Users\user\Desktop\VS\оаип\2 сем\лр9\lab9\dop2\dop2.cpp(297,67): error C1003: число ошибок превышает 100; остановка компиляции
+
+    Предупреждений: 3
+    Ошибок: 106
+
+Прошло времени 00:00:01.03
