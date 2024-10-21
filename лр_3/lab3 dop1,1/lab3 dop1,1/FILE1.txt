@@ -1,0 +1,5 @@
+apple 
+dog cat people
+people apple dog
+cat dog mum
+apple mum bus
